@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner/ngx';
-import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
+import { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner';
+import { Camera, CameraOptions } from '@ionic-native/camera';
 
 @Component({
   selector: 'page-home',
