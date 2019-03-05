@@ -1,1 +1,233 @@
-webpackJsonp([0],{124:function(n,a){function l(n){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+n+"'.")})}l.keys=function(){return[]},l.resolve=l,n.exports=l,l.id=124},158:function(n,a){function l(n){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+n+"'.")})}l.keys=function(){return[]},l.resolve=l,n.exports=l,l.id=158},185:function(n,a,l){"use strict";function u(n){return o._19(0,[(n()(),o.Z(0,0,null,null,2,"ion-nav",[],null,null,null,T.b,T.a)),o._14(6144,null,Z.a,null,[q.a]),o.Y(2,4374528,null,0,q.a,[[2,w.a],[2,E.a],S.a,Y.a,z.a,o.j,o.u,o.z,o.i,C.l,I.a,[2,M.a],R.a,o.k],{root:[0,"root"]},null),(n()(),o._18(-1,null,["\n"]))],function(n,a){n(a,2,0,a.component.rootPage)},null)}function e(n){return o._19(0,[(n()(),o.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),o.Y(1,16384,null,0,O.a,[Y.a,o.j,o.z,[2,w.a]],null,null),(n()(),o._18(-1,null,["\n  "])),(n()(),o.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,x.b,x.a)),o.Y(4,49152,null,0,B.a,[S.a,[2,w.a],[2,E.a],Y.a,o.j,o.z],null,null),(n()(),o._18(-1,3,["\n    "])),(n()(),o.Z(6,0,null,3,2,"ion-title",[],null,null,null,F.b,F.a)),o.Y(7,49152,null,0,J.a,[Y.a,o.j,o.z,[2,U.a],[2,B.a]],null,null),(n()(),o._18(-1,0,["\n      Ionic Blank\n    "])),(n()(),o._18(-1,3,["\n  "])),(n()(),o._18(-1,null,["\n"])),(n()(),o._18(-1,null,["\n\n"])),(n()(),o.Z(12,0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,V.b,V.a)),o.Y(13,4374528,null,0,X.a,[Y.a,z.a,R.a,o.j,o.z,S.a,L.a,o.u,[2,w.a],[2,E.a]],null,null),(n()(),o._18(-1,1,["\n  \n  "])),(n()(),o.Z(15,0,null,1,1,"button",[],null,[[null,"click"]],function(n,a,l){var u=!0;if("click"===a){u=!1!==n.component.scan()&&u}return u},null,null)),(n()(),o._18(-1,null,["\n    Scan QR\n  "])),(n()(),o._18(-1,1,["\n  "])),(n()(),o.Z(18,0,null,1,1,"button",[],null,[[null,"click"]],function(n,a,l){var u=!0;if("click"===a){u=!1!==n.component.takePicture()&&u}return u},null,null)),(n()(),o._18(-1,null,["\n    Take Picture\n  "])),(n()(),o._18(-1,1,["\n"])),(n()(),o._18(-1,null,["\n"]))],null,function(n,a){n(a,3,0,o._11(a,4)._hidden,o._11(a,4)._sbPadding);n(a,12,0,o._11(a,13).statusbarPadding,o._11(a,13)._hasRefresher)})}Object.defineProperty(a,"__esModule",{value:!0});var t=l(32),o=l(0),r=(l(5),l(79),l(69)),i=l(71),_=l(72),c=l(73),s=function(){function n(n,a,l){this.navCtrl=n,this.qrScanner=a,this.camera=l}return n.prototype.scan=function(){var n=this;this.qrScanner.prepare().then(function(a){if(a.authorized)var l=n.qrScanner.scan().subscribe(function(a){console.log("Scanned something",a),n.qrScanner.hide(),l.unsubscribe()})}).catch(function(n){return console.log("Error is: ",n)})},n.prototype.takePicture=function(){this.camera.getPicture({quality:100,destinationType:this.camera.DestinationType.FILE_URI,encodingType:this.camera.EncodingType.JPEG,mediaType:this.camera.MediaType.PICTURE}).then(function(n){},function(n){})},n}(),f=function(){return function(n,a,l){this.rootPage=s,n.ready().then(function(){a.styleDefault(),l.hide()})}}(),d=function(){return function(){}}(),b=l(44),h=l(218),p=l(219),m=l(220),k=l(221),g=l(222),y=l(223),v=l(224),P=l(225),j=l(226),T=l(227),Z=l(35),q=l(50),w=l(4),E=l(17),S=l(8),Y=l(1),z=l(3),C=l(7),I=l(27),M=l(14),R=l(9),D=o.X({encapsulation:2,styles:[],data:{}}),G=o.V("ng-component",f,function(n){return o._19(0,[(n()(),o.Z(0,0,null,null,1,"ng-component",[],null,null,null,u,D)),o.Y(1,49152,null,0,f,[z.a,i.a,r.a],null,null)],null,null)},{},{},[]),O=l(106),x=l(228),B=l(31),F=l(229),J=l(68),U=l(41),V=l(230),X=l(21),L=l(29),Q=o.X({encapsulation:2,styles:[],data:{}}),W=o.V("page-home",s,function(n){return o._19(0,[(n()(),o.Z(0,0,null,null,1,"page-home",[],null,null,null,e,Q)),o.Y(1,49152,null,0,s,[E.a,_.a,c.a],null,null)],null,null)},{},{},[]),A=l(13),H=l(114),K=l(18),N=l(83),$=l(85),nn=l(111),an=l(16),ln=l(30),un=l(91),en=l(183),tn=l(46),on=l(40),rn=l(93),_n=l(56),cn=l(98),sn=l(110),fn=l(105),dn=l(182),bn=l(112),hn=l(25),pn=l(92),mn=l(113),kn=o.W(d,[b.b],function(n){return o._7([o._8(512,o.i,o.S,[[8,[h.a,p.a,m.a,k.a,g.a,y.a,v.a,P.a,j.a,G,W]],[3,o.i],o.s]),o._8(5120,o.r,o._15,[[3,o.r]]),o._8(4608,A.k,A.j,[o.r,[2,A.s]]),o._8(5120,o.b,o._1,[]),o._8(5120,o.p,o._9,[]),o._8(5120,o.q,o._12,[]),o._8(4608,t.c,t.q,[A.c]),o._8(6144,o.D,null,[t.c]),o._8(4608,t.f,H.a,[]),o._8(5120,t.d,function(n,a,l,u,e){return[new t.k(n,a),new t.o(l),new t.n(u,e)]},[A.c,o.u,A.c,A.c,t.f]),o._8(4608,t.e,t.e,[t.d,o.u]),o._8(135680,t.m,t.m,[A.c]),o._8(4608,t.l,t.l,[t.e,t.m]),o._8(6144,o.B,null,[t.l]),o._8(6144,t.p,null,[t.m]),o._8(4608,o.G,o.G,[o.u]),o._8(4608,t.h,t.h,[A.c]),o._8(4608,t.i,t.i,[A.c]),o._8(4608,K.k,K.k,[]),o._8(4608,K.c,K.c,[]),o._8(4608,N.a,N.a,[S.a,Y.a]),o._8(4608,$.a,$.a,[S.a,Y.a]),o._8(4608,nn.a,nn.a,[]),o._8(4608,an.a,an.a,[]),o._8(4608,ln.a,ln.a,[z.a]),o._8(4608,L.a,L.a,[Y.a,z.a,o.u,R.a]),o._8(4608,un.a,un.a,[S.a,Y.a]),o._8(5120,A.f,en.b,[A.q,[2,A.a],Y.a]),o._8(4608,A.e,A.e,[A.f]),o._8(5120,tn.b,tn.d,[S.a,tn.a]),o._8(5120,M.a,M.b,[S.a,tn.b,A.e,on.b,o.i]),o._8(4608,rn.a,rn.a,[S.a,Y.a,M.a]),o._8(4608,_n.a,_n.a,[S.a,Y.a]),o._8(4608,cn.a,cn.a,[S.a,Y.a,M.a]),o._8(4608,sn.a,sn.a,[Y.a,z.a,R.a,S.a,C.l]),o._8(4608,fn.a,fn.a,[S.a,Y.a]),o._8(4608,I.a,I.a,[z.a,Y.a]),o._8(4608,i.a,i.a,[]),o._8(4608,r.a,r.a,[]),o._8(4608,_.a,_.a,[]),o._8(4608,c.a,c.a,[]),o._8(512,A.b,A.b,[]),o._8(512,o.k,dn.a,[]),o._8(256,Y.b,{},[]),o._8(1024,bn.a,bn.b,[]),o._8(1024,z.a,z.b,[t.b,bn.a,o.u]),o._8(1024,Y.a,Y.c,[Y.b,z.a]),o._8(512,R.a,R.a,[z.a]),o._8(512,hn.a,hn.a,[]),o._8(512,S.a,S.a,[Y.a,z.a,[2,hn.a]]),o._8(512,C.l,C.l,[S.a]),o._8(256,tn.a,{links:[]},[]),o._8(512,o.h,o.h,[]),o._8(512,pn.a,pn.a,[o.h]),o._8(1024,on.b,on.c,[pn.a,o.o]),o._8(1024,o.c,function(n,a,l,u,e,o,r,i,_,c,s,f,d){return[t.s(n),mn.a(a),nn.b(l,u),sn.b(e,o,r,i,_),on.d(c,s,f,d)]},[[2,o.t],Y.a,z.a,R.a,Y.a,z.a,R.a,S.a,C.l,Y.a,tn.a,on.b,o.u]),o._8(512,o.d,o.d,[[2,o.c]]),o._8(131584,o.f,o.f,[o.u,o.T,o.o,o.k,o.i,o.d]),o._8(512,o.e,o.e,[o.f]),o._8(512,t.a,t.a,[[3,t.a]]),o._8(512,K.j,K.j,[]),o._8(512,K.d,K.d,[]),o._8(512,K.i,K.i,[]),o._8(512,en.a,en.a,[]),o._8(512,d,d,[]),o._8(256,b.a,f,[]),o._8(256,A.a,"/",[])])});Object(o.M)(),Object(t.j)().bootstrapModuleFactory(kn)}},[185]);
+webpackJsonp([0],{
+
+/***/ 109:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 109;
+
+/***/ }),
+
+/***/ 150:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 150;
+
+/***/ }),
+
+/***/ 195:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_qr_scanner__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_camera__ = __webpack_require__(194);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl, qrScanner, camera) {
+        this.navCtrl = navCtrl;
+        this.qrScanner = qrScanner;
+        this.camera = camera;
+    }
+    HomePage.prototype.scan = function () {
+        var _this = this;
+        this.qrScanner.prepare()
+            .then(function (status) {
+            if (status.authorized) {
+                var scanSub_1 = _this.qrScanner.scan().subscribe(function (text) {
+                    console.log('Scanned something', text);
+                    _this.qrScanner.hide(); // hide camera preview
+                    scanSub_1.unsubscribe(); // stop scanning
+                });
+            }
+            else if (status.denied) {
+            }
+            else {
+            }
+        })
+            .catch(function (e) { return console.log('Error is', e); });
+    };
+    HomePage.prototype.takePicture = function () {
+        var options = {
+            quality: 100,
+            destinationType: this.camera.DestinationType.FILE_URI,
+            encodingType: this.camera.EncodingType.JPEG,
+            mediaType: this.camera.MediaType.PICTURE
+        };
+        this.camera.getPicture(options).then(function (imageData) {
+            var base64Image = 'data:image/jpeg;base64,' + imageData;
+        }, function (err) { });
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\qr-test\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  \n  <button (click)="scan()">\n    Scan QR\n  </button>\n  <button (click)="takePicture()">\n    Take Picture\n  </button>\n</ion-content>\n'/*ion-inline-end:"C:\qr-test\src\pages\home\home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_qr_scanner__["a" /* QRScanner */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_camera__["a" /* Camera */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 196:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(219);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 219:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_qr_scanner__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(195);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                })
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_5__ionic_native_qr_scanner__["a" /* QRScanner */],
+                __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__["a" /* Camera */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 269:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(195);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\qr-test\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\qr-test\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ })
+
+},[196]);
+//# sourceMappingURL=main.js.map
